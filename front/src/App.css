@@ -1,0 +1,63 @@
+/* Умисно використав в аплікації кілька підходів стилізації. Тут css, нічого цікавого. */
+
+button{
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #ffef93;
+    transform: scale(1.1);
+}
+
+.title{
+    position: relative;
+    animation: titleMoving 5s linear infinite;
+    font-size: 60px;
+}
+
+.App{
+    background-image: url(../public/BG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes titleMoving {
+    0% {
+      left: 0;
+      top: 0;
+      transform: scale(1);
+      color: lightblue;
+    }
+    20% {
+      left: 50px;
+      top: -20px;
+      transform: scale(1.1);
+      color: lightgreen;
+    }
+    40% {
+      left: 100px;
+      top: 20px;
+      transform: scale(1.05);
+      color: yellow;
+    }
+    60% {
+      left: -50px;
+      top: -30px;
+      transform: scale(1.2);
+      color: bisque;
+    }
+    80% {
+      left: -100px;
+      top: 10px;
+      transform: scale(1.15);
+      color: coral;
+    }
+    100% {
+      left: 0;
+      top: 0;
+      transform: scale(1);
+      color: lightblue;
+    }
+  }
+  

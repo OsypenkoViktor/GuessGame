@@ -6,8 +6,7 @@
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
     "build": "tsc",
-    "build:watch": "tsc --watch",
-    "start:prod": "node dist/index.js"
+    "build:watch": "tsc --watch"
   },
   "keywords": [],
   "author": "",

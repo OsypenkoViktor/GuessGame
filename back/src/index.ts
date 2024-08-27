@@ -1,3 +1,5 @@
+//простий сервер на експресс + тайпскрипт.
+// придав йому подобу структури, винісши роути в окремий файл.
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
